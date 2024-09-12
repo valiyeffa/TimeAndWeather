@@ -1,0 +1,161 @@
+.clock {
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/17af58c3-22a5-453b-9827-0ce677a06e3e.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .current-time {
+        width: 24%;
+        height: 13vh;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        .time {
+            display: flex;
+
+            p {
+                width: 100%;
+                font-size: 80px;
+                color: white;
+                font-weight: 200;
+            }
+        }
+
+        .weather {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin: 0 20px;
+
+            i {
+                font-size: 30px;
+                color: white;
+            }
+
+            .day-time {
+                display: block;
+            }
+
+            .night-time {
+                display: none;
+            }
+
+            .cloudy {
+                display: none;
+            }
+
+            .description {
+                color: white;
+            }
+
+            p {
+                margin: 0;
+                font-size: 20px;
+                font-weight: 200;
+            }
+        }
+    }
+
+    .backgr {
+        width: 23%;
+        border-radius: 7px;
+        padding: 20px;
+        transform: translateY(-48px);
+    }
+
+    .weather-bar {
+        width: 24%;
+        border-radius: 7px;
+        box-shadow: 3px 3px 10px 8px #0000008d;
+        z-index: 10;
+
+        .weather-bar-inside {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 15px;
+
+            .location-icon {
+                i {
+                    color: white;
+                    font-size: 25px;
+                }
+            }
+
+            .location {
+                width: 100%;
+                padding-left: 20px;
+
+                p {
+                    margin: 0;
+                    color: white;
+                    font-size: 20px;
+                }
+            }
+
+            .degree {
+                p {
+                    margin: 0;
+                    color: white;
+                    font-size: 25px;
+                }
+            }
+        }
+    }
+
+    .sunrise {
+        background-image: url("https://media.istockphoto.com/id/531253600/photo/sunrise.jpg?s=612x612&w=0&k=20&c=gdlZaKWcTjW1hmTRN8veqYIV25O4OfN4MhNx2H5Rgnk=");
+        background-size: cover;
+        background-position: 0%;
+    }
+
+    .sunny {
+        background-image: url("https://www.bpmcdn.com/f/files/langley/import/2020-02/20629626_web1_Langley-Weather-Sun-Clear-Sky-Skies.jpg");
+        background-size: cover;
+    }
+
+    .sunset {
+        background-image: url("https://cloudfront-us-east-1.images.arcpublishing.com/gray/PTOL7U3P7ZHNHG3QY4MPY42W7A.jpg");
+        background-size: cover;
+        background-position: 0%;
+    }
+
+    .night {
+        background-image: url("https://cdn.mos.cms.futurecdn.net/uYN8o8nN8FzSu4QGm5d4zP.jpg");
+        background-size: cover;
+    }
+
+    /* .rainy {
+        background-image: url("https://i.pinimg.com/originals/62/cb/bf/62cbbf3021778f2f6db1320a261fb88b.gif");
+        background-size: cover;
+    }
+
+    .snowy {
+        background-image: url("https://img1.picmix.com/output/stamp/normal/3/2/3/4/1384323_62e37.gif");
+    }
+
+    .cloudy {
+        background-image: url("https://media.istockphoto.com/id/512218646/photo/storm-sky-rain.jpg?s=612x612&w=0&k=20&c=RoUDM9BMwqW8NkPXjzAzlDKCHPOmdZhmmeT3jGA2EaM=");
+    }
+
+    .stormy {
+        background-image: url("https://media.istockphoto.com/id/1413876271/photo/lightning-strike-in-a-thunderstorm.jpg?s=612x612&w=0&k=20&c=TZhuf1H_qbJbiY14YwGvnMEMjF8cw0CQ1TJjGQ-tBGE=");
+        background-position: 0%;
+    }
+
+    .foggy {
+        background-image: url("https://img.freepik.com/free-vector/realistic-dynamic-fog-background_23-2149111170.jpg");
+    }
+
+    .windy {
+        background-image: url("https://i.pinimg.com/originals/1e/46/a5/1e46a5b78c665edd569cd2bfee937aed.gif");
+        background-position: 0%;
+    } */
+}
